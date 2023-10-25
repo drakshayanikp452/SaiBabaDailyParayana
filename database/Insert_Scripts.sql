@@ -4,7 +4,7 @@
 
 -- Role 1
 INSERT INTO ROLES (role_id, role_name, created_date, last_update, created_user, last_updated_user)
-VALUES (101, 'Admin', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (101, 'ADMIN', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 -- Role 2
 INSERT INTO ROLES (role_id, role_name, created_date, last_update, created_user, last_updated_user)
@@ -40,50 +40,50 @@ INSERT INTO USERS (user_id, user_name, role_id, created_date, last_updated_date,
 VALUES (3, 'MEMBER',103, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO USERS (user_id, user_name, role_id, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (4, 'admin', 104, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (4, 'MEMBER', 104, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO USERS (user_id, user_name, role_id, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (5, 'user1', 105, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (5, 'MEMBER', 105, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO USERS (user_id, user_name, role_id, created_date, last_updated_date, created_user, last_updated_user)
 
-VALUES (6, 'guest1', 106, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (6, 'MEMBER', 106, CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 
 --GROUPS
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (1, 'ADMIN', CURRENT_DATE, CURRENT_DATE, 'MADHU', 'MADHU');
+VALUES (1, 'SAI IN MY LIFE_1', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (2, 'ADMIN', CURRENT_DATE, CURRENT_DATE, 'DRAKSHA', 'DRAKSHA');
+VALUES (2, 'SAI IN MY LIFE_2', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (3, 'ADMIN', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (3, 'SAI IN MY LIFE_3', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (4, 'ADMIN', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (4, 'SAI IN MY LIFE_4', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (11, 'system IN MY LIFE', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
-
-
-INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (12, 'system IN MY LIFE', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
-
-INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (13, 'system IN MY LIFE', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
-
-INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (14, 'system IN MY LIFE', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (11, 'SAI IN MY LIFE_5', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (15, 'system IN MY LIFE', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (12, 'SAI IN MY LIFE_6', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+
+INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
+VALUES (13, 'SAI IN MY LIFE_7', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+
+INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
+VALUES (14, 'SAI IN MY LIFE_8', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 
 INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
-VALUES (16, 'system IN MY LIFE', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+VALUES (15, 'SAI IN MY LIFE_9', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
+
+
+INSERT INTO GROUPS (group_id, group_name, created_date, last_updated_date, created_user, last_updated_user)
+VALUES (16, 'SAI IN MY LIFE_10', CURRENT_DATE, CURRENT_DATE, 'system', 'system');
 
 	 
 	 
